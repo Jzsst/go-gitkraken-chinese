@@ -1,6 +1,30 @@
 # gitkraken-chinese
 GitKraken的中文汉化补丁 - by K-Skye
 
+## compare.html使用
+我总结了一下步骤：
+
+1、下载vscode
+
+2、安装 live server 插件
+
+3、创建一个文件夹放入compare.html、当前需要翻译的string.json、之前翻译过的string.json(重命名为zh.json) 如下
+![image](https://user-images.githubusercontent.com/44743391/137101937-91f24d35-0047-447a-8a5e-50fb09a9b599.png)
+
+4、用vscode打开所创建的文件，然后找到compare.html，再右键点击选择“Open with  live server ” （确定是否启动为5500端口，不是就将你当前浏览器打开的端口，去替换compare.html中的5500）
+
+5、进行第4步后，会进入compare.html，这时候会自动加载string.json，这时候F12 然后选择console。
+
+6、先点击对比，然后再点击生成json，此时就会生成需要添加到zh.json中的数据（该数据为新版本新增的需要翻译的数据）
+
+7、该数据为json格式，需要使用[格式化工具](https://www.bejson.com/)进行格式化，然后将格式化的数据添加到其中
+![image](https://user-images.githubusercontent.com/44743391/137103672-f98446d3-feca-4eb0-a9ce-ca0e2c447f3b.png)
+
+**需要注意：** 需要添加的数据是写入到原有的"menuStrings"。
+
+这是我基于8.0.1处理出来的样例（后面没有翻译的就是添加的）
+[zh.txt](https://github.com/k-skye/gitkraken-chinese/files/7336732/zh.txt)
+
 ## 说明
 自从用上了GitKraken就爱上了，卸载了其他相关git的gui，它的界面非常合我的胃口，但是苦于官方没有中文简体，于是便有了汉化的想法.  
   
