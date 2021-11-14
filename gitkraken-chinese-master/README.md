@@ -20,7 +20,7 @@ GitKraken的中文汉化补丁 - by K-Skye
 7、该数据为json格式，需要使用[格式化工具](https://www.bejson.com/)进行格式化，然后将格式化的数据添加到其中
 ![image](https://user-images.githubusercontent.com/44743391/137103672-f98446d3-feca-4eb0-a9ce-ca0e2c447f3b.png)
 
-**需要注意：** 需要添加的数据是写入到原有的"menuStrings"。
+**需要注意：** 需要添加的数据是写入到原有的"strings"。
 
 这是我基于8.0.1处理出来的样例（后面没有翻译的就是添加的）
 [zh.txt](https://github.com/k-skye/gitkraken-chinese/files/7336732/zh.txt)

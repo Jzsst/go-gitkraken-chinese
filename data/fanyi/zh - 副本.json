@@ -1,0 +1,8 @@
+{
+  "ProductName": "<%= productName %>",
+  "AboutProduct": "About <%= productName %>",
+  "VersionNumber": "Version <%= version %> (<%= bitness %>-bit)",
+  "ViewReleaseNotes": "View Release Notes",
+  "CheckForUpdateWithLastCheckedTime": "Check for Update <%= updateLastCheckedTime %>",
+  "UpdateAvailableWithVersion": "Update available (<%= updateAvailableVersion %>)"
+}
